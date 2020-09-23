@@ -10,9 +10,8 @@ public class CircleArrayImplQueue {
         circleArray.addElement(10);
         circleArray.addElement(11);
         circleArray.addElement(12);
-        circleArray.addElement(13);
         circleArray.getElement();
-        circleArray.addElement(14);
+        circleArray.addElement(13);
         circleArray.showQueue();
     }
 
