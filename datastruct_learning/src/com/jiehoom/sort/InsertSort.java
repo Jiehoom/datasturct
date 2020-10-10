@@ -8,7 +8,7 @@ public class InsertSort {
             System.out.print(integer+"\t");
         }
     }
-    
+
     public static void sort(Comparable[] comparables){
         for (int i = 1; i < comparables.length; i++) {
             int temp=i;
