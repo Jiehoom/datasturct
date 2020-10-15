@@ -16,4 +16,11 @@ public class SortUtils {
         comparables[i]=comparables[j];
         comparables[j]=temp;
     }
+
+
+    public static void print(Comparable[] comparables){
+        for (Comparable comparable : comparables) {
+            System.out.print(comparable+"\t");
+        }
+    }
 }
